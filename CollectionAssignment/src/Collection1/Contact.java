@@ -1,5 +1,4 @@
-package Collection1;
-//import java 
+package Collection1; 
 public class Contact {
 	private String name;
 	private String email;
