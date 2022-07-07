@@ -1,5 +1,5 @@
 package Collection1;
-
+//import java 
 public class Contact {
 	private String name;
 	private String email;
