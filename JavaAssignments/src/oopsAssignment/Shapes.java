@@ -1,10 +1,21 @@
 package oopsAssignment;
 
-public class Shapes {
+abstract class Shape {
+	abstract void draw();
+}
+class Line extends Shape{
+	public void draw() {
+	System.out.println("this is a line");
+}
+}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	class Rectangle extends Shape{
+		public void draw() {
+		System.out.println("this is a Rectangle");
 	}
-
+	}
+		class Cube extends Shape{
+			public void draw() {
+			System.out.println("this is a cube");
+		}
 }
