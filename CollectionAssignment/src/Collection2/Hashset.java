@@ -13,8 +13,6 @@ public class Hashset {
 		hs.add("India");
 		hs.add("Russia");
 
-
-
 		System.out.println("Set is" +hs);
 		Iterator it=hs.iterator();
 		System.out.println("element using iterator");

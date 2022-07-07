@@ -1,4 +1,5 @@
-package Collection1; 
+package Collection1;
+
 public class Contact {
 	private String name;
 	private String email;
