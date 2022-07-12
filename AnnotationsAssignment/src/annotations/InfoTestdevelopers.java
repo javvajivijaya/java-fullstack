@@ -6,8 +6,6 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 import java.sql.Time;
 
-
-
 @Retention(RUNTIME)
 @Target(METHOD)
 @interface info{
